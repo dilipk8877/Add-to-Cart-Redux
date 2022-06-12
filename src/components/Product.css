@@ -1,0 +1,37 @@
+
+.productsWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    margin-left: 18px;
+    width: 90%;
+    height: 350px;
+    background-color: darkgoldenrod;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.card img{
+    margin-top: 25px;
+    width: 150px;
+    height: 140px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: #2d66b5;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
